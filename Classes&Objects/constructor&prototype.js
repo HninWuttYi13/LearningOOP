@@ -31,4 +31,10 @@ Student.prototype.introduce = function () {
   console.log(`I am ${this.name} and I am studying ${this.course}`);
 };
 // Method call
-student1.introduce();
+student1.introduce(); //I am Hnin and I am studying OOP
+/**
+ * What JS does?
+ * student1.introduce() => JS looks for introduce in student1
+ * student1.__proto__.introduce() => JS looks for introduce in Student.prototype
+ * call function => this === student1
+ */
