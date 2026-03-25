@@ -17,3 +17,5 @@ class AdminUser extends User {
 const userAdmin = new AdminUser();
 userAdmin.deleteUser();
 userAdmin.register();
+// Admin remove user
+// User registered
