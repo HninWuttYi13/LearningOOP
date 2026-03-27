@@ -59,3 +59,18 @@ characters.forEach((character) => character.useAbility());
  * Note:
  * This is dynamic dispatch, not duck typing.
  */
+
+/**
+ * But behavior changes:
+Object	Method that runs
+Wizard	Wizard.useAbility
+DarkWizard	DarkWizard.useAbility
+Muggle	Muggle.useAbility
+
+Same call
+ Different results
+
+✔THIS is polymorphism
+Overriding = “I change behavior”
+Polymorphism = “Same call, many behaviors
+*/
