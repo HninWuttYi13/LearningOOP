@@ -70,7 +70,7 @@ Muggle	Muggle.useAbility
 Same call
  Different results
 
-✔THIS is polymorphism
+THIS is polymorphism
 Overriding = “I change behavior”
 Polymorphism = “Same call, many behaviors
 */
